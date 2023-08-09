@@ -2,24 +2,29 @@ import React, { useState } from "react"; //hook
 
 const App = () => {
 
-    const [x, setX] = useState(0)
-
-    function plus() {
-        setX(x + 1)
-    }
-
-    function minus() {
-        setX(x - 1)
-    }
    
 
     return (
         <div>
-            <h1>{x}</h1>
             <div>
-                <button onClick={plus}>+</button>
-                <button onClick={minus}>-</button>
-                
+              1
+
+            </div>
+            <div>
+              2
+
+            </div>
+            <div>
+              3
+
+            </div>
+            <div>
+              4
+
+            </div>
+            <div>
+              5
+
             </div>
         </div>
     )
